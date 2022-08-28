@@ -14,7 +14,9 @@ To get yourselves started and/or refresh your concepts, you can refer to the fol
 
 **Multivariate calculus and Probability**: You can follow Khan Academy videos [here](https://www.khanacademy.org/math/statistics-probability/probability-library) and [here](https://www.khanacademy.org/math/multivariable-calculus).
 
-**Programming**: You should be familiar with [Python](https://www.tutorialspoint.com/python/index.htm). For deep learning, mainly we would be using the [PyTorch](https://pytorch.org/tutorials/) framework. We assume familiarity with Python, but would expect that students are able to study PyTorch on their own to implement the concepts discussed in class. We recommend you make yourselves familiar with the programming frameworks. Here is a list of some other resources to help you learn about Python and the relevant libraries and packages commonly used in developing deep learning models.
+**Programming**: You should be familiar with [Python](https://www.tutorialspoint.com/python/index.htm). For deep learning, mainly we would be using the [PyTorch](https://pytorch.org/tutorials/) framework. We assume familiarity with Python, but would expect that students are able to study PyTorch on their own to implement the concepts discussed in class. We recommend you make yourselves familiar with the programming frameworks.
+
+Here is a list of some other resources to help you learn about Python and the relevant libraries and packages commonly used in developing deep learning models.
 
 - [A Visual Intro to NumPy and Data Representation](http://jalammar.github.io/visual-numpy/): a visual tutorial to familiarize yourself with ‘numpy’ which is the main library used for scientific computing in Python.
 - [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/): a tutorial created for the CS231 Stanford course on CNNs.
@@ -27,7 +29,7 @@ with deep neural networks. You can talk to your academic advisor for the
 procurement/availability of such devices and/or refer to cloud services such as
 Google Colab.
 
-1. **Google Colab**: Check out the video and helpful article by Google (made inside [Colab](https://colab.research.google.com/notebooks/welcome.ipynb)!)
+1. **Google Colab**: Check out the video and helpful article by Google (made inside [Colab](https://colab.research.google.com/notebooks/welcome.ipynb))
 
 The two disadvantages to using Colab are *speed* and *storage*. Colab sessions tend to be slower. Experiments need to be saved to the cloud or manually downloaded before the free 24 hours session is erased and all your local data will be lost.
 
@@ -69,7 +71,7 @@ torch.cuda.is_available()
 For a successful installation, it should return True.
 
 ## Ibex (Clusters)
-Ibex is the name of the clusters in our campus. More information can be found [here](https://www.hpc.kaust.edu.sa/ibex)
+Ibex is the name of the clusters at our campus. More information can be found [here](https://www.hpc.kaust.edu.sa/ibex)
 
 A very concise introduction to the usage of Ibex can be found [here](https://www.hpc.kaust.edu.sa/sites/default/files/files/public/Cluster_training/26_11_2018/0_Ibex_cheat_sheet_Nov_26_2018.pdf)
 
