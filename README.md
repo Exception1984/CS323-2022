@@ -12,4 +12,4 @@ Deep Learning for Visual Computing Course @ KAUST
 We created a short [Introduction](introduction.md) about the prerequisites of the course, which hardware to use and how to set up the programming environment.
 
 # Slack Channel
-Please attend the [Slack Workspace](https://join.slack.com/t/cs323-2022/shared_invite/zt-1ekce91hy-xBverAhvVbqRxEHbs_lsVQ) of the course to ask questions. Please always use the 'General' and only contact the respective TA in exceptional cases.
+Please attend the [Slack Workspace](https://join.slack.com/t/cs323-2022/shared_invite/zt-1ekce91hy-xBverAhvVbqRxEHbs_lsVQ) of the course to ask questions. Please always use the `General` channel to ask project-related questions and only contact the respective TA in exceptional cases.
