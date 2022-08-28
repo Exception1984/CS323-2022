@@ -18,7 +18,7 @@ To get yourselves started and/or refresh your concepts, you can refer to the fol
 
 Here is a list of some other resources to help you learn about Python and the relevant libraries and packages commonly used in developing deep learning models.
 
-- [A Visual Intro to NumPy and Data Representation](http://jalammar.github.io/visual-numpy/): a visual tutorial to familiarize yourself with ‘numpy’ which is the main library used for scientific computing in Python.
+- [A Visual Intro to NumPy and Data Representation](http://jalammar.github.io/visual-numpy/): a visual tutorial to familiarize yourself with `numpy` which is the main library used for scientific computing in Python.
 - [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/): a tutorial created for the CS231 Stanford course on CNNs.
 - [PyTorch Tensors](https://pytorch.org/tutorials/beginner/pytorch_with_examples.html): a guide to learning about Tensors and forward and backward passes using PyTorch.
 
@@ -33,15 +33,15 @@ Google Colab.
 
 The two disadvantages to using Colab are *speed* and *storage*. Colab sessions tend to be slower. Experiments need to be saved to the cloud or manually downloaded before the free 24 hours session is erased and all your local data will be lost.
 
-2. **Local Machines**: We will look at how to setup your local machine and get started on developing deep learning models using [PyTorch](https://pytorch.org/). The most common approach to start developing models that use deep learning in Python is to use the ‘conda’ package and environment manager. For a quick introduction on how to install (and use) ‘conda’ please read the following [guide](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
+2. **Local Machines**: We will look at how to setup your local machine and get started on developing deep learning models using [PyTorch](https://pytorch.org/). The most common approach to start developing models that use deep learning in Python is to use the `conda` package and environment manager. For a quick introduction on how to install (and use) `conda` please read the following [guide](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html).
 
-Once you have ‘conda’ installed, open the newly installed ‘Anaconda prompt’ application on Windows (or a simple terminal on Linux) and run the following
+Once you have `conda` installed, open the newly installed `Anaconda prompt` application on Windows (or a simple terminal on Linux) and run the following
 command:
 ```
 conda create --name pytorch pytorch torchvision cudatoolkit=10.0 jupyterlab nb_conda pillow matplotlib scikit-learn scikit-image h5py -c pytorch
 ```
 
-You can then activate this new environment (called ‘pytorch’) on Windows by running:
+You can then activate this new environment (called `pytorch`) on Windows by running:
 
 ```
 activate pytorch
@@ -59,8 +59,8 @@ learning models using PyTorch by simply running:
 jupyter lab
 ```
 
-A browser window should automatically show JupyterLab. JupyterLab is a browser based IDE that allows you to create interactive Python ‘notebooks’. Make sure to
-select the right kernel type (e.g. ‘Python [conda env:conda-pytorch]’).
+A browser window should automatically show JupyterLab. JupyterLab is a browser based IDE that allows you to create interactive Python `notebooks`. Make sure to
+select the right kernel type (e.g. `Python [conda env:conda-pytorch]`).
 
 To check the installation, run the following inside your notebooks:
 ```
@@ -107,10 +107,10 @@ Then you need to login to the allocated node,
 srun --pty bash -i
 ```
 The command starts an interactive shell which you can operate like in your local machine.
-If it is successful, you can check the GPU by nvidia-smi.
+If it is successful, you can check the GPU by `nvidia-smi`.
 
 4. To run jupyter notebook/lab on Ibex:
-Make sure you have an allocated node by using salloc.
+Make sure you have an allocated node by using `salloc`.
 ```
 srun --resv-ports=1 --pty bash -i jupyter notebook --no-browser --ip=0.0.0.0 --port=$SLURM_STEP_RESV_PORTS
 ```
