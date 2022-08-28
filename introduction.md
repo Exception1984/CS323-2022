@@ -41,6 +41,8 @@ command:
 conda create --name pytorch pytorch torchvision cudatoolkit=10.0 jupyterlab nb_conda pillow matplotlib scikit-learn scikit-image h5py -c pytorch
 ```
 
+For up-to-date information about the different PyTorch versions and suitable installation commands please take a look [here](https://pytorch.org/get-started/locally/).
+
 You can then activate this new environment (called `pytorch`) on Windows by running:
 
 ```
@@ -75,7 +77,7 @@ Ibex is the name of the clusters at our campus. More information can be found [h
 
 A very concise introduction to the usage of Ibex can be found [here](https://www.hpc.kaust.edu.sa/sites/default/files/files/public/Cluster_training/26_11_2018/0_Ibex_cheat_sheet_Nov_26_2018.pdf)
 
-Here, we will introduce the basic functions of Ibex which we will use in this class.
+Here, we will introduce the basic functions of Ibex which we will use in this class. To connect to IBEX from a Windows machine, we highly recommend using [MobaXterm](https://mobaxterm.mobatek.net/).
 
 1. To login to the cluster:
 ```
