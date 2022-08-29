@@ -5,6 +5,7 @@ Deep Learning for Visual Computing Course @ KAUST
 We created a short [Introduction](introduction.md) about the prerequisites of the course, which hardware to use and how to set up the programming environment.
 
 # Projects
+Projects will be handled using [BlackBoard](https://blackboard.kaust.edu.sa/).
 
 | Project Nr. | Anncouncement | Submission Deadline | Teaching Assistant | Topic                                             |
 | ----------- | ------------- | ------------------- | ------------------ | ------------------------------------------------- |
